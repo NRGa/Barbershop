@@ -1,0 +1,25 @@
+html,
+body{
+	min-width: 1122px;
+	min-height: 1750px;
+	margin:0px;
+	padding: 0px;
+	color:red;
+}
+body{
+	background-size: 1122px auto;
+}
+.main-header{
+	/*Только для оформления сетки*/
+	min-height:70px;
+}
+.container{
+	width: 940px;
+	padding: 0 10px;
+
+	/*Только для оформления сетки*/
+	min-height:70px;
+}
+.main-navigation ul li{
+	border-color: red;
+}
