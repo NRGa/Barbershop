@@ -6,7 +6,15 @@ body{
 	padding: 0px;
 }
 body{
-	background-size: 1122px auto;
+	min-width: 960px;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	color: #ffffff;	
+	text-transform: uppercase;
+	background: #000000 url("img/body-bg.png") no-repeat center top;
 }
 .clearfix::after{
 	content: "";
@@ -21,6 +29,8 @@ body{
 }
 .main-header{
 	margin-bottom:60px;
+	color: #ffffff;	
+	background-color: #000000;
 }
 .main-navigation{
 	float:left;
