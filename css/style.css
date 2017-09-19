@@ -154,6 +154,12 @@ body{
 .index-content{
 	margin-bottom: 35px;
 	padding: 50px 80px;
+
+	color:#000000;
+
+	background:
+	url(img/shadow.png) no-repeat center,
+	#f8f5f2 url(img/image-block.jpg);
 }
 .index-content-left{
 	float: left;
@@ -166,6 +172,33 @@ body{
 	width: 300px;
 	/*Только для оформления сетки*/
 	min-height: 330px;
+}
+.index-content-title{
+	margin:0;
+	margin-bottom: 25px;
+
+	font-size: 30px;
+	line-height: 42px;
+}
+.index-content p{
+	margin: 0;
+	margin-bottom: 25px;
+}
+.news-preview{
+	margin:0;
+	padding:0;
+	padding-right:35px;
+
+	list-style: none;
+}
+.news-preview li{
+	margin-bottom: 25px;
+}
+.news-prewiew p{
+	margin-bottom: 0;
+}
+.news-preview time{
+	text-transform:none;
 }
 .main-footer{
 	margin-top: 65px;
