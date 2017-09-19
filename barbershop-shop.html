@@ -38,28 +38,43 @@
 	<main class="container">
 			<b class="top-shop">Средства для ухода</b>
 			<ul class="fourth-menu">
-				<li>Главная</li>
-				<li>Магазин</li>
-				<li>Средства для ухода</li>
+				<li><a>Главная</a></li>
+				<li><a>Магазин</a></li>
+				<li><a>Средства для ухода</a></li>
 			</ul>
 			<div class="main-content-shop">
 
 				<div class="manufacturers">
-				<h2>Производители:</h2>
+				
 				  <form method="post" action="input5.php">
-   <p><input type="checkbox" name="option1" value="a1" checked>Baxter of California<br>
-   <input type="checkbox" name="option2" value="a2">Mr Natty<br>
-   <input type="checkbox" name="option3" value="a3" checked>Suavecito<br> 
-   <input type="checkbox" name="option4" value="a4">Malin+Goetz<br> 
-   <input type="checkbox" name="option5" value="a5">Murray’s<br>
-   <input type="checkbox" name="option5" value="a6" checked>American Crew
+				  	<fieldset class=manufacturer-1>
+				  		<legend>Производители:</legend>
+   <p><input type="checkbox" name="option1" value="a1" id="option1" checked> 
+   		<label for="opion1">Baxter of California</label><br>
+   <input type="checkbox" name="option2" value="a2" id="option2">
+   		<label for="option2">Mr Natty</label>
+   <input type="checkbox" name="option3" value="a3" id="option3" checked>
+   		<label for="option3">Suavecito</label> 
+   <input type="checkbox" name="option4" value="a4" id="option4">
+   		<label for="option4">Malin+Goetz</label> 
+   <input type="checkbox" name="option5" value="a5" id="option5">
+   		<label for="option5">Murray’s</label>
+   <input type="checkbox" name="option5" value="a6" id="option6" checked>
+   		<label for="option6">American Crew</label>
 </p>  
+					</fieldset>
+
+		<fieldset class="groups-product">
+			<legend>Группы товаров:</legend>
+			<input type="radio" name="products-group" value="1" id="value1">
+			<label for="value1">Бритвенные принадлежности</label>
+			<input type="radio" name="products-group" value="2" id="value2" checked>
+			<label for="value2">Средства для ухода</label>
+			<input type="radio" name="products-group" value="3" id="value3">
+			<label for="value3">Аксессуары</label>
+		</fieldset>
   				</form>
- 			</div>
- 			<div class="groups">
- 				<h2>Группы товаров:</h2>
- 				<button>Показать</button>
- 			</div>
+ 			
 			</div>
 
 		<div class="img-products">
