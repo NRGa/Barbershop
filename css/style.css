@@ -161,17 +161,16 @@ body{
 	url(img/shadow.png) no-repeat center,
 	#f8f5f2 url(img/image-block.jpg);
 }
-.index-content-left{
+.index-content-left {
 	float: left;
 	width: 380px;
-	/*Только для оформления сетки*/
-	min-height: 330px;
+	
+	
 }
 .index-content-right{
 	float: right;
 	width: 300px;
-	/*Только для оформления сетки*/
-	min-height: 330px;
+	
 }
 .index-content-title{
 	margin:0;
@@ -194,12 +193,16 @@ body{
 .news-preview li{
 	margin-bottom: 25px;
 }
-.news-prewiew p{
+.news-preview p{
 	margin-bottom: 0;
 }
 .news-preview time{
-	text-transform:none;
-}
+	text-transform: none;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	}
 .main-footer{
 	margin-top: 65px;
 	padding-top: 60px;
