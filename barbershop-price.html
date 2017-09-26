@@ -3,14 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body class="inner-page">
 	<header class="main-header">
-		<div class="container">
-		<div class="index-logo-price">
+		<div class="container clearfix">
+			<nav class="main-navigation">
+		<a class="logo-inner">
 			<img src="css/img/logo-barbershop-item.png" width="111" height="24" alt="Бородинский">
-		</div>
-		<nav class="main-navigation">
+		</a>
+		
 			<ul>
 				<li>
 					<a href="#" >Информация</a>
@@ -18,8 +22,8 @@
 				<li>
 					<a href="#" >Новости</a>
 				</li>
-				<li>
-					<a href="#" >Прайс-лист</a>
+				<li class="active">
+					<span>Прайс-лист</span>
 				</li>
 				<li>
 					<a href="#" >Магазин</a>
@@ -28,15 +32,16 @@
 					<a href="#" >Контакты</a>
 				</li>
 			</ul>
-		</nav>
+	</nav>
 		<div class="user-block">
 			<a class="login " href="#">Вход</a>
 		</div>
 	</div>
+
 	</header>
 	<main class="container">
-		<div class="third-menu">
-			<b>Прайс-лист</b>
+		<div class="inner-page-title">
+			<h1>Прайс-лист</h1>
 			<ul>
 				<li>Главная</li>
 				<li>Прайс-лист</li>

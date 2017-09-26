@@ -392,3 +392,55 @@ body{
 .footer-copyright .btn{
 	margin-right: 0;
 }
+
+/*СТИЛИ К СТРАНИЦЕ ПРАЙС-ЛИСТ*/
+
+ .main-navigation .logo-inner{
+ 	float: left;
+ 	width: 111px;
+ 	height: 20px;
+ 	padding-top: 22px;
+ }
+
+ .main-navigation .logo-inner img{
+ 	width: 111px;
+ 	height: 24px;
+ }
+
+ .main-navigation .logo-inner:hover{
+ 	background: none;
+ }
+
+
+.main-navigation .active{
+	position: relative;
+
+	background-color: none;
+}
+
+.main-navigation .active::after{
+ 	content:"";
+ 	position: absolute;
+ 	right: 20px;
+ 	bottom: 0;
+ 	left:20px;
+
+ 	height: 5px;
+
+ 	background-color: #ffffff;
+ }
+
+.main-navigation .active a:hover{
+ 	background:none;
+ }
+
+.main-navigation .active  span{
+	display: block;
+	padding: 25px 20px;
+}
+
+.inner-page{
+	color:#000000;
+
+	background: #f8f3f0 url(img/pattern-white.jpg) repeat;
+}
